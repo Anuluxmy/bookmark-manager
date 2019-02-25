@@ -1,15 +1,25 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/anu/Projects/bookmark-manager/spec/features/app_spec.rb": [
+      "/Users/andrew/Makers/_pairing-challenges/bookmark-manager/spec/features/app_spec.rb": [
         1,
         1,
         1,
         1,
         null,
         null
+      ],
+      "/Users/andrew/Makers/_pairing-challenges/bookmark-manager/spec/features/viewing_bookmarks_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
       ]
     },
-    "timestamp": 1551106203
+    "timestamp": 1551106759
   }
 }
