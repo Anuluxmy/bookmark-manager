@@ -3,7 +3,7 @@ require 'simplecov'
 require 'simplecov-console'
 require "capybara"
 require "./app.rb"
-Capybara.app = Bookmark_Manager
+Capybara.app = BookmarkManager
 require "rspec"
 ENV["RACK_ENV"]="test"
 

@@ -4,8 +4,8 @@
       "/Users/andrew/Makers/_pairing-challenges/bookmark-manager/spec/features/app_spec.rb": [
         1,
         1,
-        0,
-        0,
+        1,
+        1,
         null,
         null
       ],
@@ -13,8 +13,8 @@
         1,
         null,
         1,
-        0,
-        0,
+        1,
+        1,
         null,
         null,
         null
@@ -22,16 +22,18 @@
       "/Users/andrew/Makers/_pairing-challenges/bookmark-manager/spec/unit/bookmark_spec.rb": [
         1,
         null,
-        0,
-        0,
-        0,
-        0,
-        0,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
         null,
         null,
         null
       ]
     },
-    "timestamp": 1551108259
+    "timestamp": 1551108685
   }
 }

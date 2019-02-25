@@ -1,3 +1,5 @@
+require './lib/bookmark'
+
 describe Bookmark do
 
   it 'returns a list of all bookmarks' do

@@ -1,18 +1,17 @@
 require 'sinatra/base'
 
-class Bookmark_Manager < Sinatra::Base
+require './lib/bookmark'
+
+# a Bookmark. for all the pages are belong to you
+class BookmarkManager < Sinatra::Base
 
   get '/' do
-    "Hello World!"
+    'Hello World!'
   end
 
   get '/bookmarks' do
-    @bookmarks = [
-     'https://duckduckgo.com',
-     'https://reddit.com',
-     'https://tfl.gov.uk'
-   ]
-  erb :'bookmarks/index'
+    @bookmarks = Bookmark.all
+    erb :'bookmarks/index'
   end
 
   # start the server if ruby file executed directly
