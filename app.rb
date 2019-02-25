@@ -7,7 +7,7 @@ class Bookmark_Manager < Sinatra::Base
   end
 
   get '/bookmarks' do
-    '#1 Test Bookmark'
+   'Bookmark Manager'
   end
 
 end
