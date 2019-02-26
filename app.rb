@@ -7,6 +7,7 @@ class BookmarkManager < Sinatra::Base
 
   get '/' do
     'Hello World!'
+    redirect '/bookmarks'
   end
 
   get '/bookmarks' do
