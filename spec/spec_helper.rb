@@ -3,9 +3,11 @@ require 'simplecov'
 require 'simplecov-console'
 require "capybara"
 require "./app.rb"
-Capybara.app = BookmarkManager
-require "rspec"
+require "features/web_helper"
+Capybara.app = Bookmarks
+
 ENV["RACK_ENV"]="test"
+require "pg"
 
 
 SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter.new([

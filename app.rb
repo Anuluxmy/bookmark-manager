@@ -3,11 +3,11 @@ require 'sinatra/base'
 require './lib/bookmark'
 
 # a Bookmark. for all the pages are belong to you
-class BookmarkManager < Sinatra::Base
+class Bookmarks < Sinatra::Base
 
   get '/' do
-    'Hello World!'
-    redirect '/bookmarks'
+    'Bookmark Manager!'
+
   end
 
   get '/bookmarks' do
