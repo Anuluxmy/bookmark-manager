@@ -15,6 +15,11 @@ class Bookmarks < Sinatra::Base
     erb :'bookmarks/index'
   end
 
+  post '/add_bookmarks' do
+    Bookmark.add(params[:url])
+    redirect '/bookmarks'
+  end
+
   # start the server if ruby file executed directly
   run! if app_file == $0
 

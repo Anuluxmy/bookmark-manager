@@ -9,6 +9,7 @@ end
 
 feature "viewing bookmarks in /bookmarks route" do
   scenario "show list of bookmarks" do
+    
     connection = PG.connect(dbname: 'bookmark_manager_test')
     connection.exec("INSERT INTO bookmarks (url) VALUES ('http://www.makersacademy.com');")
     connection.exec("INSERT INTO bookmarks (url) VALUES ('http://www.destroyallsoftware.com');")
